@@ -1,0 +1,119 @@
+@font-face {
+    font-family: 'Glowdex';
+    src: url(font/Glowdex.ttf) format(truetype);
+}
+
+@font-face {
+    font-family: 'cursive';
+    src: url(font/cursive.ttf) format(truetype);
+    font-weight: bold;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    outline: none;
+    border: none;
+    box-sizing: border-box;
+}
+
+img{
+    width: 100%;
+    display: flex;
+}
+
+a{
+    text-decoration: none;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: #18181B;
+}
+
+nav{
+    background: #1a1a1a;
+    width: 100%;
+    padding: 10px 10%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+}
+
+.nav-logo{
+    max-width: 100px;
+}
+
+.nav-links{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 3rem;
+}
+
+.link{
+    color: rgb(255, 196, 0);
+    font-display: none;
+    font-size: large;
+    pointer-events: none;
+}
+
+.container{
+    text-align: center;
+    position: relative;
+    margin-bottom: none;
+    padding-top: -32px;
+    border: none;
+    border: 10px;
+    border-radius: 5%;
+    
+}
+
+.btn1{
+    font-size: larger;
+    font-family: 'poppins';
+}
+
+.btn1{
+    padding: 1rem 2rem;
+    font-size: 1rem;
+    color: #fff;
+    background-color:  rgb(255, 196, 0);
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.btn1:hover{
+    background-color: #1e40af;
+}
+
+
+
+footer{
+    padding-top: 25vh;
+    text-align: center;
+    color:  rgb(255, 196, 0);
+}
+
+.solido{
+    position: relative;
+    padding: none;
+    margin: auto;
+
+}
+
+.solido-ad{
+    padding-left: 85vh;
+    margin-top: 30vh;
+    position: relative;
+    font-size: xx-large;
+    justify-content: space-between;
+    font-family: 'Glowdex';
+    color: rgb(255, 196, 0);
+    font-style: oblique;
+    backdrop-filter: blur(10px);
+    font-size: 100px;
+    
+}
