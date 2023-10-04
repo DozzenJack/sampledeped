@@ -113,14 +113,14 @@ footer{
     
 }
 
-@media screen and (max-width: 1200px){
+@media screen and (max-width: 2560px){
 
     .solido-ad{
         display: flex;
         flex-direction: column;
         align-items: flex-end;
         padding-top: 15rem;
-        margin-right: 5rem;
+        margin-right: 15rem;
         justify-content: center;
         text-align: center;
         font-size: xx-large;
@@ -145,14 +145,14 @@ footer{
 
 }
 
-@media screen and (max-width: 632px){
+@media screen and (max-width: 1440px){
 
     .solido-ad{
         display: block;
         flex-direction: column;
         align-items: flex-end;
         padding-top: 15rem;
-        margin-right: -4rem;
+        margin-right: 0rem;
         justify-content: center;
         text-align: center;
         font-size: xx-large;
@@ -161,6 +161,16 @@ footer{
         font-style: oblique;
         font-size: 150px;
         
+    }
+
+    footer{
+        display: block;
+        padding-top: 25vh;
+        margin: auto;
+        text-align: center;
+        align-items: center;
+        font-size: 15px;
+        color:  rgb(255, 196, 0);
     }
 
 }
@@ -172,7 +182,7 @@ footer{
         flex-direction: column;
         align-items: flex-end;
         padding-top: 15rem;
-        margin-right: -1rem;
+        margin-right: 0rem;
         justify-content: center;
         text-align: center;
         font-size: large;
@@ -188,6 +198,7 @@ footer{
         padding-top: 25vh;
         margin: auto;
         text-align: center;
+        align-items: center;
         font-size: 15px;
         color:  rgb(255, 196, 0);
     }
@@ -201,7 +212,7 @@ footer{
         flex-direction: column;
         align-items: flex-end;
         padding-top: 15rem;
-        margin-right: -1rem;
+        margin-right: 0rem;
         justify-content: center;
         text-align: center;
         font-size: large;
@@ -217,6 +228,7 @@ footer{
         padding-top: 25vh;
         margin: auto;
         text-align: center;
+        align-items: center;
         font-size: 15px;
         color:  rgb(255, 196, 0);
     }
@@ -230,7 +242,7 @@ footer{
         flex-direction: column;
         align-items: flex-end;
         padding-top: 15rem;
-        margin-right: -1rem;
+        margin-right: 0rem;
         justify-content: center;
         text-align: center;
         font-size: large;
@@ -247,6 +259,7 @@ footer{
         margin: auto;
         text-align: center;
         justify-content: center;
+        align-items: center;
         font-size: 15px;
         color:  rgb(255, 196, 0);
     }
