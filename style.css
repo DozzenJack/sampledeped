@@ -165,7 +165,36 @@ footer{
 
 }
 
-@media screen and (max-width: 412px){
+@media screen and (max-width: 1261px){
+
+    .solido-ad{
+        display: block;
+        flex-direction: column;
+        align-items: flex-end;
+        padding-top: 15rem;
+        margin-right: -1rem;
+        justify-content: center;
+        text-align: center;
+        font-size: large;
+        font-family: 'Glowdex';
+        color: rgb(255, 196, 0);
+        font-style: oblique;     
+        font-size: 150px;
+        
+    }
+
+    footer{
+        display: block;
+        padding-top: 25vh;
+        margin: auto;
+        text-align: center;
+        font-size: 15px;
+        color:  rgb(255, 196, 0);
+    }
+
+}
+
+@media screen and (max-width: 417px){
 
     .solido-ad{
         display: block;
@@ -183,9 +212,18 @@ footer{
         
     }
 
+    footer{
+        display: block;
+        padding-top: 25vh;
+        margin: auto;
+        text-align: center;
+        font-size: 15px;
+        color:  rgb(255, 196, 0);
+    }
+
 }
 
-@media screen and (max-width: 1261px){
+@media screen and (max-width: 547px){
 
     .solido-ad{
         display: block;
@@ -199,8 +237,17 @@ footer{
         font-family: 'Glowdex';
         color: rgb(255, 196, 0);
         font-style: oblique;     
-        font-size: 150px;
+        font-size: 120px;
         
+    }
+
+    footer{
+        display: block;
+        padding-top: 25vh;
+        margin: auto;
+        text-align: center;
+        font-size: 15px;
+        color:  rgb(255, 196, 0);
     }
 
 }
