@@ -446,7 +446,7 @@ P{
         position: relative;
         justify-content: center;
         padding-top: 100px;
-        margin-left: 2vh;
+        margin-left: 3vh;
         max-width: 80%;
         max-height: none;
         border: none;
@@ -602,9 +602,9 @@ P{
         display: flex;
         position: relative;
         justify-content: center;
-        padding-top: 80px;
-        margin-left: 2vh;
-        max-width: 70%;
+        padding-top: 60px;
+        margin-left: 3.5vh;
+        max-width: 73%;
         max-height: none;
         border: none;
 
