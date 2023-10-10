@@ -61,32 +61,49 @@ nav{
 
 .container{
     color: rgb(255, 196, 0);
-    font-size: 20px;
     text-align: center;
-    position: flex;
+    align-items: center;
+    position: flex; 
     padding: 30px;
 }
 
-h3{
+span{
+    display: inline-block;
+    position: relative;
+    word-spacing: 10%;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    font-size: 45px;
-    row-gap: 10px;
-    font-style: oblique;
-    font: optional;
-    text-align: justify;
-    padding: 40px;
-    margin: 20px;
-    text-align: center;
-    text-decoration: underline;
+    font-size: smaller;
     cursor: pointer;
     transition: all 0.3s ease;
+    
+    
 }
 
-h3:hover{
-    padding: -90px;
-    background-color: #1e40af;
+span:hover{
+    background-color: grey  ;
+    border-radius: 10px;
+
 }
 
+span::first-letter{
+    color: aqua;
+    font-size: 60px;
+    font-family: 'Glowdex';
+    text-decoration: none;
+    
+}
+
+
+.easy{
+     left: -75.50px;
+}
+
+.system{
+    left: -40px;
+
+}
+
+span + 
 .btn1{
     font-size: larger;
     font-family: 'poppins';
@@ -122,6 +139,20 @@ footer{
     margin-right: 1.5rem;
     justify-content: center;
     text-align: center;
+    font-family: 'Glowdex';
+    color: rgb(255, 196, 0);
+    font-style: oblique;
+    
+}
+
+.ad{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 0rem;
+    margin-right: 1.5rem;
+    justify-content: center;
+    text-align: center;
     font-size: xx-large;
     font-family: 'Glowdex';
     color: rgb(255, 196, 0);
@@ -130,15 +161,15 @@ footer{
     
 }
 
-P{
+/* P{
     display: block;
     text-align: center;
+    padding-bottom: 10vh;
     color: rgb(255, 196, 0);
     font-style: oblique;
-    font-size: 150px;
-
+    font-size: 100px;
 }
-
+ */
 .picture{
     display: flex;
     position: absolute;
@@ -146,14 +177,14 @@ P{
     padding-top: 200px;
     margin-left: 200vh;
     max-width: 100%;
-    max-height: auto;
+    max-height: none;
     border: none; 
 }
 
 
 @media screen and (max-width: 4535px){
 
-    .project-ad{
+    /* .project-ad{
         display: block;
         flex-direction: column;
         align-items: flex-end;
@@ -167,7 +198,7 @@ P{
         font-style: oblique;
         font-size: 200px;
         
-    }
+    } */
 
     .btn1{
         padding: 1rem 5rem;
@@ -215,40 +246,50 @@ P{
 }
 
 @media screen and (max-width: 1440px){ 
-
-    .picture{
-        display: flex;
-        position: relative;
-        justify-content: center;
-        padding-top: 200px;
-        margin-left: 9vh;
-        max-width: 74%;
-        max-height: auto;
-        border: none;
-        
-       
     
-    }
-
-    P{
+    .project-ad{
         display: block;
+        flex-direction: column;
+        align-items: flex-end;
+        padding-top: 15rem;
+        padding-bottom: 0vh;
+        margin-right: -0rem;
+        justify-content: center;
         text-align: center;
+        font-family: 'Glowdex';
         color: rgb(255, 196, 0);
         font-style: oblique;
-        font-size: 100px;
-    
+        font-size: 130px;
+        
     }
 
+    .ad{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-top: 0rem;
+        margin-right: 1.5rem;
+        justify-content: center;
+        text-align: center;
+        font-size: xx-large;
+        font-family: 'Glowdex';
+        color: rgb(255, 196, 0);
+        font-style: oblique;
+        font-size: 150px;
+        
+    }
+
+    
     .picture{
         display: flex;
         position: relative;
         justify-content: center;
         align-items: center;
         align-content: center;
-        padding-top: 100px;
-        margin-left: 15vh;
+        padding-top: 50px;
+        margin-left: 30vh;
         max-width: 70%;
-        max-height: -200vh;
+        max-height: none;
         border: none;
         
     }
@@ -261,6 +302,47 @@ P{
         font-size: 100px;
     
     }
+
+    span{
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        font-size: 45px;
+        
+    }
+
+    span::first-letter{
+        color: aqua;
+    }
+    /* h3{
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        font-size: 45px;
+        row-gap: 10px;
+        text-align: left;
+        font-style: oblique;
+        font: optional;
+        padding: 10px;
+        padding-top: none;
+        margin-left: 80vh;
+        text-decoration: underline;
+        cursor: pointer;
+        transition: all 0.3s ease;
+    } */
+
+    /* h2{
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        font-size: 55px;
+        row-gap: 10px;
+        text-align: center;
+        font-style: oblique;
+        padding-right: 200px;
+        padding-top: -1vh;
+        margin-top: 1%;
+        line-height: 5px;
+        margin-left: 75vh;
+        white-space: normal;
+        text-decoration: underline;
+        cursor: pointer;
+        transition: all 0.3s ease;
+    } */
     
 }
 
@@ -292,7 +374,7 @@ P{
         transition: all 0.3s ease;
     }
 
-    h3{
+    /* h3{
         font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
         font-size: 45px;
         row-gap: 10px;
@@ -305,14 +387,14 @@ P{
         text-decoration: underline;
         cursor: pointer;
         transition: all 0.3s ease;
-    }
+    } */
 
     .picture{
         display: flex;
         position: relative;
         justify-content: center;
-        padding-top: 100px;
-        margin-left: 5.5vh;
+        padding-top: 10px;
+        margin-left: 18vh;
         max-width: 74%;
         max-height: none;
         border: none;
@@ -346,7 +428,7 @@ P{
         
     }
 
-    h3{
+   /*  h3{
         font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
         font-size: 40px;
         row-gap: 10px;
@@ -359,15 +441,15 @@ P{
         text-decoration: underline;
         cursor: pointer;
         transition: all 0.3s ease;
-    }
+    } */
 
     .picture{
         display: flex;
         position: relative;
         justify-content: center;
-        padding-top: 100px;
-        margin-left: 5.7vh;
-        max-width: 80%;
+        padding-top: 50px;
+        margin-left: 23vh;
+        max-width:70%;
         max-height: none;
         border: none;
 
@@ -379,7 +461,7 @@ P{
         align-content: center;
         color: rgb(255, 196, 0);
         font-style: oblique;
-        font-size: 80px;
+        font-size: 75px;
     
     }
 
@@ -398,35 +480,15 @@ P{
         margin-right: 0rem;
         justify-content: center;
         text-align: center;
-        font-size: large;
         font-family: 'Glowdex';
         color: rgb(255, 196, 0);
         font-style: oblique;     
-        font-size: 70px;
+        font-size: 20px;
         
     }
 
-    footer{
-        display: block;
-        padding-top: 25vh;
-        margin: auto;
-        text-align: center;
-        justify-content: center;
-        font-size: 15px;
-        color:  rgb(255, 196, 0);
-    }
-
-    .btn1{
-        padding: 1rem 2rem;
-        font-size: 0rem;
-        color: #fff;
-        background-color:  rgb(255, 196, 0);
-        border-radius: 5px;
-        cursor: pointer;
-        transition: all 0.3s ease;
-    }
-
-    h3{
+        
+   /*  h3{
         font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
         font-size: 25px;
         row-gap: 10px;
@@ -440,12 +502,12 @@ P{
         cursor: pointer;
         transition: all 0.3s ease;
     }
-    
+     */
     .picture{
         display: flex;
         position: relative;
         justify-content: center;
-        padding-top: 100px;
+        padding-top: 50px;
         margin-left: 3vh;
         max-width: 80%;
         max-height: none;
@@ -459,7 +521,7 @@ P{
         align-content: center;
         color: rgb(255, 196, 0);
         font-style: oblique;
-        font-size: 50px;
+        font-size: 10px;
     
     }
 
@@ -486,16 +548,6 @@ P{
         
     }
 
-    footer{
-        display: block;
-        padding-top: 25vh;
-        margin: auto;
-        text-align: center;
-        justify-content: center;
-        font-size: 15px;
-        color:  rgb(255, 196, 0);
-    }
-
     .btn1{
         padding: 1rem 2rem;
         font-size: 0rem;
@@ -506,7 +558,7 @@ P{
         transition: all 0.3s ease;
     }
 
-    h3{
+   /*  h3{
         font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
         font-size: 20px;
         row-gap: 10px;
@@ -519,7 +571,7 @@ P{
         text-decoration: underline;
         cursor: pointer;
         transition: all 0.3s ease;
-    }
+    } */
     
     .picture{
         display: flex;
@@ -533,16 +585,20 @@ P{
 
     }
 
-    P{
+    .container-municipality p{
+
+        font-size: xx-large;
+    }
+   /*  P{
         display: block;
         text-align: center;
         align-content: center;
         color: rgb(255, 196, 0);
         font-style: oblique;
-        font-size: 45px;
+        font-size: 20px;
     
     }
-
+ */
 }
 
 @media screen and (max-width: 375px){
@@ -583,7 +639,7 @@ P{
         transition: all 0.3s ease;
     }
 
-    h3{
+   /*  h3{
         font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
         font-size: 20px;
         row-gap: 10px;
@@ -596,7 +652,7 @@ P{
         text-decoration: underline;
         cursor: pointer;
         transition: all 0.3s ease;
-    }
+    } */
     
     .picture{
         display: flex;
