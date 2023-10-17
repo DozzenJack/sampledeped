@@ -1,0 +1,50 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    outline: 0%;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: #18181B;
+
+}
+
+#header{
+    position: absolute;
+    text-decoration: underline;
+    right: 450px;
+    font-size: xx-large;
+    color: rgb(255, 196, 0);
+    
+}
+
+#image{
+    display: flex;
+    justify-content: center;
+    padding-top: 40px;
+    max-height: 400px;
+    max-width: 2000px;
+   
+   
+    
+
+}
+
+.laakpict{
+    border-radius: 5px 100px;
+    border: peachpuff;
+    
+   
+}
+
+p{
+    position: absolute;
+    top: 100px;
+}
+
+
+a{
+    text-decoration: none;
+}
