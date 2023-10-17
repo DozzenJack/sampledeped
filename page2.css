@@ -1,6 +1,6 @@
 @font-face {
     font-family: 'Glowdex';
-    src: url(font/Glowdex.ttf) format(truetype);
+    src: url(font/glowdex/Glowdex.ttf) format(truetype);
 }
 
 @font-face {
@@ -103,45 +103,18 @@ span::first-letter{
 
 }
 
-span + 
-.btn1{
-    font-size: larger;
-    font-family: 'poppins';
-}
-
-.btn1{
-    padding: 1rem 2rem;
-    font-size: 1rem;
-    color: #fff;
-    background-color:  rgb(255, 196, 0);
-    border-radius: 5px;
-    cursor: pointer;
-    transition: all 0.3s ease;
-}
-
-.btn1:hover{
-    background-color: #1e40af;
-}
-
-
-
-footer{
-    padding-top: 25vh;
-    text-align: center;
-    color:  rgb(255, 196, 0);
-}
-
 .project-ad{
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding-top: 15rem;
+    padding-top: -0rem;
     margin-right: 1.5rem;
     justify-content: center;
     text-align: center;
     font-family: 'Glowdex';
     color: rgb(255, 196, 0);
-    font-style: oblique;
+   /*  font-style: oblique; */
+    /* transition: 2s; */
     
 }
 
@@ -156,20 +129,12 @@ footer{
     font-size: xx-large;
     font-family: 'Glowdex';
     color: rgb(255, 196, 0);
-    font-style: oblique;
+    /* font-style: oblique; */
     font-size: 150px;
+    /* transition: 2s; */
     
 }
 
-/* P{
-    display: block;
-    text-align: center;
-    padding-bottom: 10vh;
-    color: rgb(255, 196, 0);
-    font-style: oblique;
-    font-size: 100px;
-}
- */
 .picture{
     display: flex;
     position: absolute;
@@ -181,45 +146,404 @@ footer{
     border: none; 
 }
 
+.maptext{
+    display: inline-block;
+    position: relative;
+    font-size: 30px;
+    margin-left: 58vh;  
+    padding-top: 30vh; 
+    transition: color 0.3s, font-size 0.3;
+}
 
-@media screen and (max-width: 4535px){
+.maptext:hover{
+   color: rgb(255, 196, 0);
+   margin-left: 55vh; 
+   padding-top: 30vh;
+   font-size: 40px;
+}
 
-    /* .project-ad{
-        display: block;
+.monkayo{
+    display: inline-block;
+    position: relative;
+    font-size: 30px;
+    margin-left: 110vh;  
+    padding-top: 5vh; 
+    transition: color 0.3s, font-size 0.3;
+}
+
+.monkayo:hover{
+   color: rgb(255, 196, 0);
+   margin-left: 110vh; 
+   padding-top: 4vh;
+   font-size: 35px;
+}
+
+.montevista{
+    display: inline-block;
+    position: relative;
+    font-size: 20px;
+    margin-left: 94vh;  
+    padding-top: 27vh; 
+    transition: color 0.3s, font-size 0.3;
+}
+
+.montevista:hover{
+   color: rgb(255, 196, 0);
+   margin-left: 94vh; 
+   padding-top: 27vh;
+   font-size: 21px;
+}
+
+.compostela{
+    display: inline-block;
+    position: relative;
+    font-size: 20px;
+    margin-left: 130vh;  
+    padding-top: 2vh; 
+    transition: color 0.3s, font-size 0.3;
+}
+
+.compostela:hover{
+   color: rgb(255, 196, 0);
+   margin-left: 130vh; 
+   padding-top: 2vh;
+   font-size: 21px;
+}
+
+.compostela{
+    display: inline-block;
+    position: relative;
+    font-size: 20px;
+    margin-left: 130vh;  
+    padding-top: 2vh; 
+    transition: color 0.3s, font-size 0.3;
+}
+
+.compostela:hover{
+   color: rgb(255, 196, 0);
+   margin-left: 130vh; 
+   padding-top: 2vh;
+   font-size: 21px;
+}
+
+.nabunturan{
+    display: inline-block;
+    position: relative;
+    font-size: 20px;
+    margin-left: 93vh;  
+    padding-top: 17vh; 
+    transition: color 0.3s, font-size 0.3;
+}
+
+.nabunturan:hover{
+   color: rgb(255, 196, 0);
+   margin-left: 93vh; 
+   padding-top: 17vh;
+   font-size: 21px;
+}
+
+.new-bataan{
+    display: inline-block;
+    position: relative;
+    font-size: 20px;
+    margin-left: 137vh;  
+    padding-top: 10vh; 
+    transition: color 0.3s, font-size 0.3;
+}
+
+.new-bataan:hover{
+   color: rgb(255, 196, 0);
+   margin-left: 137vh; 
+   padding-top: 10vh;
+   font-size: 21px;
+}
+
+.mawab{
+    display: inline-block;
+    position: relative;
+    font-size: 20px;
+    margin-left: 86vh;  
+    padding-top: 5vh; 
+    transition: color 0.3s, font-size 0.3;
+}
+
+.mawab:hover{
+   color: rgb(255, 196, 0);
+   margin-left: 86vh; 
+   padding-top: 5vh;
+   font-size: 21px;
+}
+
+.maco{
+    display: inline-block;
+    position: relative;
+    font-size: 20px;
+    margin-left: 86vh;  
+    padding-top: 17vh; 
+    transition: color 0.3s, font-size 0.3;
+}
+
+.maco:hover{
+   color: rgb(255, 196, 0);
+   margin-left: 86vh; 
+   padding-top: 17vh;
+   font-size: 21px;
+}
+
+.maragusan{
+    display: inline-block;
+    position: relative;
+    font-size: 20px;
+    margin-left: 135vh;  
+    padding-top: 13vh; 
+    transition: color 0.3s, font-size 0.3;
+}
+
+.maragusan:hover{
+   color: rgb(255, 196, 0);
+   margin-left: 135vh; 
+   padding-top: 13vh;
+   font-size: 21px;
+}
+
+.mabini{
+    display: inline-block;
+    position: relative;
+    font-size: 20px;
+    margin-left: 88vh;  
+    padding-top: 5vh; 
+    transition: color 0.3s, font-size 0.3;
+}
+
+.mabini:hover{
+   color: rgb(255, 196, 0);
+   margin-left: 88vh; 
+   padding-top: 5vh;
+   font-size: 21px;
+}
+
+.pantukan{
+    display: inline-block;
+    position: relative;
+    font-size: 20px;
+    margin-left: 110vh;  
+    padding-top: 17vh; 
+    transition: color 0.3s, font-size 0.3;
+}
+
+.pantukan:hover{
+   color: rgb(255, 196, 0);
+   margin-left: 110vh; 
+   padding-top: 17vh;
+   font-size: 21px;
+}
+
+
+ @media screen and (max-width: 2560px){ 
+
+    .project-ad{
+        display: flex;
         flex-direction: column;
-        align-items: flex-end;
-        padding-top: 15rem;
-        margin-right: -0rem;
+        align-items: center;
+        padding-top: -0rem;
+        margin-right: -7rem;
         justify-content: center;
         text-align: center;
-        font-size: xx-large;
+        font-family: 'Glowdex';
+        color: rgb(255, 196, 0); 
+        font-size: 50; 
+        
+    } 
+    
+    .ad{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-top: 0rem;
+        margin-right: 1.5rem;
+        justify-content: center;
+        text-align: center;
         font-family: 'Glowdex';
         color: rgb(255, 196, 0);
-        font-style: oblique;
         font-size: 200px;
         
-    } */
-
-    .btn1{
-        padding: 1rem 5rem;
-        font-size: 1rem;
-        color: #fff;
-        background-color:  rgb(255, 196, 0);
-        border-radius: 5px;
-        position: flex;
-        align-items: center;
-        cursor: pointer;
-        transition: all 0.3s ease;
     }
 
 
-}
+    .maptext{
+        position: relative;
+        font-size: 30px;
+        margin-left: 50vh;  
+        padding-top: 35vh; 
+        transition: color 0.3s, font-size 0.3;
+    }
+    
+    .maptext:hover{
+       color: rgb(255, 196, 0);
+       margin-left: 50vh; 
+       padding-top: 35vh;
+       font-size: 35px;
+    }
 
-@media screen and (max-width: 2560px){ 
+    .monkayo{
+        position: relative;
+        font-size: 30px;
+        margin-left: 103vh;  
+        padding-top: 2vh; 
+        transition: color 0.3s, font-size 0.3;
+    }
+    
+    .monkayo:hover{
+       color: rgb(255, 196, 0);
+       margin-left: 103vh; 
+       padding-top: 2vh;
+       font-size: 35px;
+    }
+    
+    .montevista{
+        position: relative;
+        font-size: 20px;
+        margin-left: 85vh;  
+        padding-top: 29vh; 
+        transition: color 0.3s, font-size 0.3;
+    }
+    
+    .montevista:hover{
+       color: rgb(255, 196, 0);
+       margin-left: 85vh; 
+       padding-top: 29vh;
+       font-size: 21px;
+    }
+    
+    .compostela{
+        position: relative;
+        font-size: 20px;
+        margin-left: 120vh;  
+        padding-top: 2vh; 
+        transition: color 0.3s, font-size 0.3;
+    }
+    
+    .compostela:hover{
+       color: rgb(255, 196, 0);
+       margin-left: 120vh; 
+       padding-top: 2vh;
+       font-size: 21px;
+    }
+    
+    .nabunturan{
+        position: relative;
+        font-size: 20px;
+        margin-left: 85vh;  
+        padding-top: 15vh; 
+        transition: color 0.3s, font-size 0.3;
+    }
+    
+    .nabunturan:hover{
+       color: rgb(255, 196, 0);
+       margin-left: 85vh; 
+       padding-top: 15vh;
+       font-size: 21px;
+    }
+    
+    .new-bataan{
+        position: relative;
+        font-size: 20px;
+        margin-left: 129vh;  
+        padding-top: 10vh; 
+        transition: color 0.3s, font-size 0.3;
+    }
+    
+    .new-bataan:hover{
+       color: rgb(255, 196, 0);
+       margin-left: 129vh; 
+       padding-top: 10vh;
+       font-size: 21px;
+    }
+    
+    .mawab{
+        display: inline-block;
+        position: relative;
+        font-size: 20px;
+        margin-left: 80vh;  
+        padding-top: 8vh; 
+        transition: color 0.3s, font-size 0.3;
+    }
+    
+    .mawab:hover{
+       color: rgb(255, 196, 0);
+       margin-left: 80vh; 
+       padding-top: 8vh;
+       font-size: 21px;
+    }
+    
+    .maco{
+        position: relative;
+        font-size: 20px;
+        margin-left: 80vh;  
+        padding-top: 17vh; 
+        transition: color 0.3s, font-size 0.3;
+    }
+    
+    .maco:hover{
+       color: rgb(255, 196, 0);
+       margin-left: 80vh; 
+       padding-top: 17vh;
+       font-size: 21px;
+    }
+    
+    .maragusan{
+        display: inline-block;
+        position: relative;
+        font-size: 20px;
+        margin-left: 127vh;  
+        padding-top: 12vh; 
+        transition: color 0.3s, font-size 0.3;
+    }
+    
+    .maragusan:hover{
+       color: rgb(255, 196, 0);
+       margin-left: 127vh; 
+       padding-top: 12vh;
+       font-size: 21px;
+    }
+    
+    .mabini{
+        display: inline-block;
+        position: relative;
+        font-size: 20px;
+        margin-left: 85vh;  
+        padding-top: 5vh; 
+        transition: color 0.3s, font-size 0.3;
+    }
+    
+    .mabini:hover{
+       color: rgb(255, 196, 0);
+       margin-left: 85vh; 
+       padding-top: 5vh;
+       font-size: 21px;
+    }
+    
+    .pantukan{
+        display: inline-block;
+        position: relative;
+        font-size: 20px;
+        margin-left: 105vh;  
+        padding-top: 20vh; 
+        transition: color 0.3s, font-size 0.3;
+    }
+    
+    .pantukan:hover{
+       color: rgb(255, 196, 0);
+       margin-left: 105vh; 
+       padding-top: 20vh;
+       font-size: 21px;
+    }
+    
+    
 
     .picture{
         display: flex;
-        position: relative;
+        position: absolute;
         justify-content: center;
         align-items: center;
         align-content: center;
@@ -228,6 +552,7 @@ footer{
         max-width: 70%;
         max-height: -200vh;
         border: none;
+        border-radius: 10%
         
     }
 
@@ -239,27 +564,61 @@ footer{
         font-size: 150px;
     
     }
-    
 
-  
+    span{
+        display: inline-block;
+        position: relative;
+        word-spacing: 10%;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        font-size: 50px;
+        cursor: pointer;
+        transition: all 0.3s ease;
+       
+        
+    }
     
+    span:hover{
+        background-color: grey  ;
+        border-radius: 10px;
+    
+    }
+    
+    span::first-letter{
+        color: aqua;
+        font-size: 60px;
+        font-family: 'Glowdex';
+        text-decoration: none;
+        
+    }
+    
+    
+    .easy{
+         left: -85.50px;
+    }
+    
+    .system{
+        left: -50px;
+
+   
+      
 }
 
 @media screen and (max-width: 1440px){ 
     
-    .project-ad{
+     .project-ad{
         display: block;
         flex-direction: column;
         align-items: flex-end;
-        padding-top: 15rem;
+        padding-top: 0rem;
         padding-bottom: 0vh;
-        margin-right: -0rem;
+        margin-right: -5rem;
         justify-content: center;
         text-align: center;
         font-family: 'Glowdex';
         color: rgb(255, 196, 0);
-        font-style: oblique;
-        font-size: 130px;
+        /* font-style: oblique; */
+        font-size: 110px;
+        transition: 2s;
         
     }
 
@@ -274,15 +633,26 @@ footer{
         font-size: xx-large;
         font-family: 'Glowdex';
         color: rgb(255, 196, 0);
-        font-style: oblique;
+       /*  font-style: oblique; */
         font-size: 150px;
+        transition: 2s;
         
     }
+
+    .easy{
+        left: -75.50px;
+   }
+   
+   .system{
+       left: -40px;
+   
+   }
 
     
     .picture{
         display: flex;
-        position: relative;
+        position: absolute;
+        z-index: -1;
         justify-content: center;
         align-items: center;
         align-content: center;
@@ -315,20 +685,35 @@ footer{
     
 }
 
-@media screen and (max-width: 1024px){
+@media screen and (max-width: 1024.33px){
 
-    .project-ad{
-        display: block;
+     .project-ad{
+        display: flex;
         flex-direction: column;
         align-items: center;
-        padding-top: 15rem;
-        margin-right: 0rem;
+        padding-top: -0rem;
+        margin-right: 1.5rem;
+        justify-content: center;
+        text-align: center;
+        font-family: 'Glowdex';
+        color: rgb(255, 196, 0);
+       /*  font-style: oblique; */
+        font-size: 150px;
+        
+    }
+    
+    .ad{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-top: 0rem;
+        margin-right: 1.5rem;
         justify-content: center;
         text-align: center;
         font-size: xx-large;
         font-family: 'Glowdex';
         color: rgb(255, 196, 0);
-        font-style: oblique;
+       /*  font-style: oblique; */
         font-size: 200px;
         
     }
@@ -343,7 +728,7 @@ footer{
         transition: all 0.3s ease;
     }
 
-    /* h3{
+    h3{
         font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
         font-size: 45px;
         row-gap: 10px;
@@ -356,7 +741,7 @@ footer{
         text-decoration: underline;
         cursor: pointer;
         transition: all 0.3s ease;
-    } */
+    } 
 
     .picture{
         display: flex;
@@ -392,16 +777,16 @@ footer{
         font-size: xx-large;
         font-family: 'Glowdex';
         color: rgb(255, 196, 0);
-        font-style: oblique;
+      /*   font-style: oblique; */
         font-size: 130px;
         
     }
 
-   /*  h3{
+     h3{
         font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
         font-size: 40px;
         row-gap: 10px;
-        font-style: oblique;
+       /*  font-style: oblique; */
         font: optional;
         text-align: justify;
         padding: 40px;
@@ -410,7 +795,7 @@ footer{
         text-decoration: underline;
         cursor: pointer;
         transition: all 0.3s ease;
-    } */
+    } 
 
     .picture{
         display: flex;
@@ -451,7 +836,7 @@ footer{
         text-align: center;
         font-family: 'Glowdex';
         color: rgb(255, 196, 0);
-        font-style: oblique;     
+     /*    font-style: oblique;   */   
         font-size: 70px;
         
     }
@@ -466,7 +851,7 @@ footer{
         text-align: center;
         font-family: 'Glowdex';
         color: rgb(255, 196, 0);
-        font-style: oblique;
+      /*   font-style: oblique; */
         font-size: 100px;
 
 }
@@ -499,7 +884,7 @@ footer{
 
 @media screen and (max-width: 375px){
 
-   /*  .project-ad{
+     .project-ad{
         display: block;
         flex-direction: column;
         align-items: flex-end;
@@ -509,12 +894,12 @@ footer{
         text-align: center;
         font-family: 'Glowdex';
         color: rgb(255, 196, 0);
-        font-style: oblique;     
+      /*   font-style: oblique;   */   
         font-size: 50px;
         
-    } */
+    } 
 
-    /* .ad{
+     .ad{
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -528,7 +913,7 @@ footer{
         
         
     }
- */
+ 
     
     .picture{
         display: flex;
@@ -562,7 +947,7 @@ footer{
         font-size: large;
         font-family: 'Glowdex';
         color: rgb(255, 196, 0);
-        font-style: oblique;     
+     /*    font-style: oblique;  */    
         font-size: 50px;
         
     }
@@ -589,5 +974,5 @@ footer{
         font-size: 40px;
     
     }
-
+  }
 }
