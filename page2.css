@@ -575,4 +575,246 @@ span::first-letter{
     }
 
 }
+
+@media  screen and (max-width: 428px){
+
+    .projects{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-top: -0rem;
+        margin-right: -5rem;
+        justify-content: center;
+        text-align: center;
+        font-family: 'Glowdex';
+        color: rgb(255, 196, 0);
+       /*  font-style: oblique; */
+       font-size: 70px;
+    
+        
+    }
+    
+    .dreams{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-top: 0rem;
+        margin-right: -2.5rem;
+        justify-content: center;
+        text-align: center;
+        font-family: 'Glowdex';
+        color: rgb(255, 196, 0);
+        /* font-style: oblique; */
+        font-size: 90px;
+    
+        
+    }
+
+    .davao{
+        font-size: 50px;
+    }
+
+    .pictures{
+        display: flex;
+        position: absolute;
+        justify-content: center;
+        padding-top: 20px;
+        margin-left: 5vh;
+        margin: none;
+        padding: none;
+        max-width: 90%;
+        max-height: none;
+        border: none; 
+    }
+
+    .maptext{
+        display: inline-block;
+        position: relative;
+        font-size: 15px;
+        margin-left: 15vh;  
+        padding-top: 10vh; 
+        transition: color 0.3s, font-size 0.3;
+        text-decoration: none;
+        color: black;
+    }
+    
+    .maptext:hover{
+       color: rgb(255, 196, 0);
+       margin-left: 15vh; 
+       padding-top: 8vh;
+       font-size: 15px;
+    }
+    
+    .monkayo{
+        display: inline-block;
+        position: relative;
+        font-size: 13px;
+        margin-left: 35vh;  
+        transition: color 0.3s, font-size 0.3;
+        text-decoration: none;
+        color: black;
+    }
+    
+    .monkayo:hover{
+       color: rgb(255, 196, 0);
+       margin-left: 35vh; 
+       font-size: 13px;
+    }
+    
+    .montevista{
+        display: inline-block;
+        position: relative;
+        font-size: 10px;
+        margin-left: 28vh;  
+        padding-top: 13vh; 
+        transition: color 0.3s, font-size 0.3;
+        text-decoration: none;
+        color: black;
+    }
+    
+    .montevista:hover{
+       color: rgb(255, 196, 0);
+       margin-left: 28vh; 
+       font-size: 10px;
+    }
+    
+    .Compostela{
+        display: inline-block;
+        position: relative;
+        font-size: 10px;
+        margin-left: 42vh;  
+        padding-top: -6vh; 
+        transition: color 0.3s, font-size 0.3;
+        text-decoration: none;
+        color: black;
+    }
+    
+    .Compostela:hover{
+       color: rgb(255, 196, 0);
+       margin-left: 42vh; 
+       font-size: 10px;
+    }
+    
+    
+    .nabunturan{
+        display: inline-block;
+        position: relative;
+        font-size: 9px;
+        margin-left: 28vh;  
+        padding-top: 4vh; 
+        transition: color 0.3s, font-size 0.3;
+        text-decoration: none;
+        color: black;
+    }
+    
+    .nabunturan:hover{
+       color: rgb(255, 196, 0);
+       margin-left: 28vh; 
+       font-size: 9px;
+    }
+    
+    .new-bataan{
+        display: inline-block;
+        position: relative;
+        font-size: 13px;
+        margin-left: 43vh;  
+        padding-top: 4vh; 
+        transition: color 0.3s, font-size 0.3;
+        text-decoration: none;
+        color: black;
+    }
+    
+    .new-bataan:hover{
+       color: rgb(255, 196, 0);
+       margin-left: 43vh; 
+       font-size: 13px;
+    }
+    
+    .mawab{
+        display: inline-block;
+        position: relative;
+        font-size: 12px;
+        margin-left: 24vh;  
+        padding-top: -4vh; 
+        transition: color 0.3s, font-size 0.3;
+        text-decoration: none;
+        color: black;
+    }
+    
+    .mawab:hover{
+       color: rgb(255, 196, 0);
+       margin-left: 24vh; 
+       font-size: 12px;
+    }
+    
+    .maco{
+        display: inline-block;
+        position: relative;
+        font-size: 14px;
+        margin-left: 24vh;  
+        padding-top: 7vh; 
+        transition: color 0.3s, font-size 0.3;
+        text-decoration: none;
+        color: black;
+    }
+    
+    .maco:hover{
+       color: rgb(255, 196, 0);
+       margin-left: 24vh; 
+       font-size: 14px;
+    }
+    
+    .maragusan{
+        display: inline-block;
+        position: relative;
+        font-size: 12px;
+        margin-left: 44vh;  
+        padding-top: 2vh; 
+        transition: color 0.3s, font-size 0.3;
+        text-decoration: none;
+        color: black;
+    }
+    
+    .maragusan:hover{
+       color: rgb(255, 196, 0);
+       margin-left: 44vh; 
+       font-size: 12px;
+    }
+    
+    .mabini{
+        display: inline-block;
+        position: relative;
+        font-size: 13px;
+        margin-left: 26vh;  
+        padding-top: 2vh; 
+        transition: color 0.3s, font-size 0.3;
+        text-decoration: none;
+        color: black;
+    }
+    
+    .mabini:hover{
+       color: rgb(255, 196, 0);
+       margin-left: 26vh; 
+       font-size: 13px;
+    }
+    
+    .pantukan{
+        display: inline-block;
+        position: relative;
+        font-size: 13px;
+        margin-left: 33vh;  
+        padding-top: 7vh; 
+        transition: color 0.3s, font-size 0.3;
+        text-decoration: none;
+        color: black;
+    }
+    
+    .pantukan:hover{
+       color: rgb(255, 196, 0);
+       margin-left: 105vh; 
+       font-size: 20px;
+    }
+
+}
+
     
