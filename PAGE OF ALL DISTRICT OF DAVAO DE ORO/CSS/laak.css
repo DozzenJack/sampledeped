@@ -13,8 +13,9 @@ body{
 
 #header{
     position: absolute;
-    text-decoration: underline;
-    right: 450px;
+    right: 35rem;
+    text-decoration: none;
+    
     font-size: xx-large;
     color: rgb(255, 196, 0);
     
@@ -33,18 +34,67 @@ body{
 }
 
 .laakpict{
-    border-radius: 5px 100px;
+    
     border: peachpuff;
     
    
 }
 
-p{
-    position: absolute;
-    top: 100px;
-}
-
-
 a{
     text-decoration: none;
+}
+
+@media screen and (max-width: 1024px) {
+
+    #header{
+
+        position: absolute;
+        right: 300px;
+    }
+
+    .laakpict{
+
+        height: 360px;
+    }
+
+    .wrapper{
+        padding: 5px;
+        max-width: 960px;
+        width: 95%;
+        margin: 20px auto;
+        
+    }
+    
+    .columns{
+
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+        margin: 5px;
+    }
+
+    .coloum{
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+        margin: 5px 0;
+    }
+
+    
+    a{
+        flex-direction: column;
+    }
+
+    .north{
+        position: static;
+        margin-left: 400px;
+        color: rgb(255, 196, 0);
+    }
+    
+    .south{
+        position: static;
+        margin-left: 400px;
+        color: rgb(255, 196, 0);
+
+    }
 }

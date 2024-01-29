@@ -1,6 +1,6 @@
 @font-face {
     font-family: 'Glowdex';
-    src: url(font/glowdex/Glowdex.ttf) format(truetype);
+    src: url(font/Glowdex.ttf) format(truetype);
 }
 
 @font-face {
@@ -98,11 +98,11 @@ footer{
 }
 
 .solido-ad{
-    display: flex;
-    flex-direction: column;
-    align-items: flex-end;
+    display: block;
+    flex-direction: row;
+    align-items: center;
     padding-top: 15rem;
-    margin-right: 5rem;
+    margin-right: 0rem;
     justify-content: center;
     text-align: center;
     font-size: xx-large;
@@ -113,7 +113,7 @@ footer{
     
 }
 
-@media screen and (min-width: 2560px){
+@media screen and (max-width: 2560px){
 
     .solido-ad{
         display: flex;
@@ -152,7 +152,7 @@ footer{
         flex-direction: column;
         align-items: flex-end;
         padding-top: 10rem;
-        margin-right: -45rem;
+        margin-right: 0rem;
         justify-content: center;
         text-align: center;
         font-size: 120px;
@@ -188,12 +188,12 @@ footer{
 
 }
 
-@media screen and (max-width: 1261px){
+@media screen and (max-width: 1024px){
 
     .solido-ad{
         display: block;
-        flex-direction: column;
-        align-items: flex-end;
+        flex-direction: row;
+        align-items: center;
         padding-top: 15rem;
         margin-right: 0rem;
         justify-content: center;
