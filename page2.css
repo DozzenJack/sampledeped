@@ -22,7 +22,7 @@ img{
     display: flex;
 }
 
-a{
+.all{
     text-decoration: none;
 }
 
@@ -73,7 +73,7 @@ span::first-letter{
 }
 .E{
     font-size: 40px;
-    margin-left: 2vh;
+    margin-left: -18vh;
 }
 .A{
     font-size: 40px;
@@ -83,8 +83,19 @@ span::first-letter{
 }
 .S{
     font-size: 40px;
-    margin-left: -0vh;
+    margin-left: -10vh;
     justify-content: space-between;
+}
+
+.container-municipality{
+
+    justify-content: center;
+}
+
+.davao{
+    text-align: center;
+    font-size: 60px;
+    color: rgb(255, 196, 0);
 }
 
 .projects{
@@ -108,19 +119,15 @@ span::first-letter{
     flex-direction: column;
     align-items: center;
     padding-top: 0rem;
-    margin-right: 1.5rem;
+    margin-right: -2.5rem;
     justify-content: center;
     text-align: center;
     font-family: 'Glowdex';
     color: rgb(255, 196, 0);
     /* font-style: oblique; */
-    font-size: 130px;
+    font-size: 120px;
 
     
-}
-
-.davao{
-    font-size: 100px;
 }
 
 .pictures{
@@ -129,6 +136,8 @@ span::first-letter{
     justify-content: center;
     padding-top: 20px;
     margin-left: 50vh;
+    margin: none;
+    padding: none;
     max-width: 50%;
     max-height: none;
     border: none; 
@@ -141,13 +150,15 @@ span::first-letter{
     margin-left: 68vh;  
     padding-top: 20vh; 
     transition: color 0.3s, font-size 0.3;
+    text-decoration: none;
+    color: black;
 }
 
 .maptext:hover{
    color: rgb(255, 196, 0);
    margin-left: 68vh; 
    padding-top: 20vh;
-   font-size: 40px;
+   font-size: 30px;
 }
 
 .monkayo{
@@ -155,80 +166,85 @@ span::first-letter{
     position: relative;
     font-size: 30px;
     margin-left: 105vh;  
-    padding-top:1vh; 
     transition: color 0.3s, font-size 0.3;
+    text-decoration: none;
+    color: black;
 }
 
 .monkayo:hover{
    color: rgb(255, 196, 0);
    margin-left: 105vh; 
-   padding-top: 1vh;
-   font-size: 35px;
+   font-size: 30px;
 }
 
 .montevista{
     display: inline-block;
     position: relative;
     font-size: 20px;
-    margin-left: 92vh;  
+    margin-left: 90vh;  
     padding-top: 20vh; 
     transition: color 0.3s, font-size 0.3;
+    text-decoration: none;
+    color: black;
 }
 
 .montevista:hover{
    color: rgb(255, 196, 0);
-   margin-left: 92vh; 
-   padding-top: 20vh;
-   font-size: 21px;
+   margin-left: 90vh; 
+   font-size: 20px;
 }
 
 .Compostela{
     display: inline-block;
     position: relative;
     font-size: 20px;
-    margin-left: 120vh;  
+    margin-left: 115vh;  
     padding-top: -4vh; 
     transition: color 0.3s, font-size 0.3;
+    text-decoration: none;
+    color: black;
 }
 
 .Compostela:hover{
    color: rgb(255, 196, 0);
-   margin-left: 120vh; 
-   padding-top: -4vh;
-   font-size: 21px;
+   margin-left: 115vh; 
+   font-size: 20px;
 }
 
 
 .nabunturan{
     display: inline-block;
     position: relative;
-    font-size: 20px;
-    margin-left: 93vh;  
+    font-size: 18px;
+    margin-left: 91vh;  
     padding-top: 10vh; 
     transition: color 0.3s, font-size 0.3;
+    text-decoration: none;
+    color: black;
 }
 
 .nabunturan:hover{
    color: rgb(255, 196, 0);
-   margin-left: 93vh; 
-   padding-top: 10vh;
-   font-size: 21px;
+   margin-left: 91vh; 
+   font-size: 18px;
 }
 
 .new-bataan{
     display: inline-block;
     position: relative;
     font-size: 20px;
-    margin-left: 125vh;  
+    margin-left: 120vh;  
     padding-top: 10vh; 
     transition: color 0.3s, font-size 0.3;
+    text-decoration: none;
+    color: black;
 }
 
 .new-bataan:hover{
    color: rgb(255, 196, 0);
-   margin-left: 125vh; 
+   margin-left: 120vh; 
    padding-top: 10vh;
-   font-size: 21px;
+   font-size: 20px;
 }
 
 .mawab{
@@ -236,15 +252,16 @@ span::first-letter{
     position: relative;
     font-size: 20px;
     margin-left: 86vh;  
-    padding-top: -2vh; 
+    padding-top: -4vh; 
     transition: color 0.3s, font-size 0.3;
+    text-decoration: none;
+    color: black;
 }
 
 .mawab:hover{
    color: rgb(255, 196, 0);
    margin-left: 86vh; 
-   padding-top: -2vh;
-   font-size: 21px;
+   font-size: 20px;
 }
 
 .maco{
@@ -254,29 +271,33 @@ span::first-letter{
     margin-left: 86vh;  
     padding-top: 10vh; 
     transition: color 0.3s, font-size 0.3;
+    text-decoration: none;
+    color: black;
 }
 
 .maco:hover{
    color: rgb(255, 196, 0);
    margin-left: 86vh; 
    padding-top: 10vh;
-   font-size: 21px;
+   font-size: 20px;
 }
 
 .maragusan{
     display: inline-block;
     position: relative;
     font-size: 20px;
-    margin-left: 125vh;  
+    margin-left: 120vh;  
     padding-top: 9vh; 
     transition: color 0.3s, font-size 0.3;
+    text-decoration: none;
+    color: black;
 }
 
 .maragusan:hover{
    color: rgb(255, 196, 0);
-   margin-left: 125vh; 
+   margin-left: 120vh; 
    padding-top: 9vh;
-   font-size: 21px;
+   font-size: 20px;
 }
 
 .mabini{
@@ -284,479 +305,33 @@ span::first-letter{
     position: relative;
     font-size: 20px;
     margin-left: 88vh;  
-    padding-top: 5vh; 
+    padding-top: 2vh; 
     transition: color 0.3s, font-size 0.3;
+    text-decoration: none;
+    color: black;
 }
 
 .mabini:hover{
    color: rgb(255, 196, 0);
    margin-left: 88vh; 
-   padding-top: 5vh;
-   font-size: 21px;
+   font-size: 20px;
 }
 
 .pantukan{
     display: inline-block;
     position: relative;
     font-size: 20px;
-    margin-left: 110vh;  
+    margin-left: 105vh;  
     padding-top: 10vh; 
     transition: color 0.3s, font-size 0.3;
+    text-decoration: none;
+    color: black;
 }
 
 .pantukan:hover{
    color: rgb(255, 196, 0);
-   margin-left: 110vh; 
-   padding-top: 10vh;
-   font-size: 21px;
+   margin-left: 105vh; 
+   font-size: 20px;
 }
 
 
- @media screen and (max-width: 2560px){ 
-
-    .project-ad{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        padding-top: -0rem;
-        margin-right: 5rem;
-        justify-content: center;
-        text-align: center;
-        font-family: 'Glowdex';
-        color: rgb(255, 196, 0); 
-        font-style: oblique; 
-        font-size: 150; 
-        
-    } 
-    
-    .ad{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        padding-top: 0rem;
-        margin-right: 1.5rem;
-        justify-content: center;
-        text-align: center;
-        font-size: xx-large;
-        font-family: 'Glowdex';
-        color: rgb(255, 196, 0);
-       /*  font-style: oblique; */
-        font-size: 200px;
-        
-    }
-
-    .picture{
-        display: flex;
-        position: relative;
-        justify-content: center;
-        align-items: center;
-        align-content: center;
-        padding-top: 100px;
-        margin-left: 25vh;
-        max-width: 70%;
-        max-height: -200vh;
-        border: none;
-        
-    }
-
-    P{
-        display: block;
-        text-align: center;
-        color: rgb(255, 196, 0);
-        font-style: oblique;
-        font-size: 150px;
-    
-    }
-    
-    span{
-        display: inline-block;
-        position: relative;
-        word-spacing: 10%;
-        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-        font-size: smaller;
-        cursor: pointer;
-        transition: all 0.3s ease;
-        
-        
-    }
-    
-    span:hover{
-        background-color: grey  ;
-        border-radius: 10px;
-    
-    }
-    
-    span::first-letter{
-        color: aqua;
-        font-size: 60px;
-        font-family: 'Glowdex';
-        text-decoration: none;
-        
-    }
-    
-    
-    .E{
-         left: -75.50px;
-    }
-    
-    .S{
-        left: -40px;
-    
-    
-}
-
-@media screen and (max-width: 1440px){ 
-    
-     .project-ad{
-        display: block;
-        flex-direction: column;
-        align-items: flex-end;
-        padding-top: 0rem;
-        padding-bottom: 0vh;
-        margin-right: -5rem;
-        justify-content: center;
-        text-align: center;
-        font-family: 'Glowdex';
-        color: rgb(255, 196, 0);
-        /* font-style: oblique; */
-        font-size: 110px;
-        transition: 2s;
-        
-    }
-
-    .ad{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        padding-top: 0rem;
-        margin-right: 1.5rem;
-        justify-content: center;
-        text-align: center;
-        font-size: xx-large;
-        font-family: 'Glowdex';
-        color: rgb(255, 196, 0);
-       /*  font-style: oblique; */
-        font-size: 150px;
-        transition: 2s;
-        
-    }
-
-    .all{
-        text-decoration: none;
-    }
-
-    .E{
-        left: -75.50px;
-   }
-   
-   .S{
-       left: -40px;
-   
-   }
-
-    
-    .picture{
-        display: flex;
-        position: absolute;
-        z-index: -1;
-        justify-content: center;
-        align-items: center;
-        align-content: center;
-        padding-top: 50px;
-        margin-left: 30vh;
-        max-width: 70%;
-        max-height: none;
-        border: none;
-        
-    }
-
-    P{
-        display: block;
-        text-align: center;
-        color: rgb(255, 196, 0);
-        font-style: oblique;
-        font-size: 100px;
-    
-    }
-
-    span{
-        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-        font-size: 45px;
-        
-    }
-
-    span::first-letter{
-        color: aqua;
-    }
-
-    
-}
-
-@media screen and (max-width: 1024.63px){
-
-     .project-ad{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        padding-top: -0rem;
-        margin-right: -5rem;
-        justify-content: center;
-        text-align: center;
-        font-family: 'Glowdex';
-        color: rgb(255, 196, 0);
-       /*  font-style: oblique; */
-        font-size: 90px;
-        
-    }
-    
-    .ad{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        padding-top: 0rem;
-        margin-right: 1.5rem;
-        justify-content: center;
-        text-align: center;
-        font-size: xx-large;
-        font-family: 'Glowdex';
-        color: rgb(255, 196, 0);
-       /*  font-style: oblique; */
-        font-size: 100px;
-        
-    }
-
-    .all{
-        text-decoration: none;
-    }
-
-    .btn1{
-        padding: 1rem 2rem;
-        font-size: 1rem;
-        color: #fff;
-        background-color:  rgb(255, 196, 0);
-        border-radius: 5px;
-        cursor: pointer;
-        transition: all 0.3s ease;
-    }
-
-    h3{
-        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-        font-size: 45px;
-        row-gap: 10px;
-        font-style: oblique;
-        font: optional;
-        text-align: justify;
-        padding: 40px;
-        margin: 20px;
-        text-align: center;
-        text-decoration: underline;
-        cursor: pointer;
-        transition: all 0.3s ease;
-    } 
-
-    .picture{
-        display: flex;
-        position: relative;
-        justify-content: center;
-        padding-top: 10px;
-        margin-left: 18vh;
-        max-width: 74%;
-        max-height: none;
-        border: none;
-
-
-        
-       
-    
-    }
-
-    
-    
-
-}
-
-
-
-@media screen and (max-width: 768px){
-
-    .project-ad{
-        display: block;
-        flex-direction: column;
-        align-items: flex-end;
-        padding-top: 15rem;
-        margin-right: -1rem;
-        justify-content: center;
-        text-align: center;
-        font-size: xx-large;
-        font-family: 'Glowdex';
-        color: rgb(255, 196, 0);
-      /*   font-style: oblique; */
-        font-size: 130px;
-        
-    }
-
-     h3{
-        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-        font-size: 40px;
-        row-gap: 10px;
-       /*  font-style: oblique; */
-        font: optional;
-        text-align: justify;
-        padding: 40px;
-        margin: 20px;
-        text-align: center;
-        text-decoration: underline;
-        cursor: pointer;
-        transition: all 0.3s ease;
-    } 
-
-    .picture{
-        display: flex;
-        position: relative;
-        justify-content: center;
-        padding-top: 50px;
-        margin-left: 23vh;
-        max-width:70%;
-        max-height: none;
-        border: none;
-
-    }
-
-    P{
-        display: block;
-        text-align: center;
-        align-content: center;
-        color: rgb(255, 196, 0);
-        font-style: oblique;
-        font-size: 75px;
-    
-    }
-
-    .all{
-        text-decoration: none;
-    }
-
-
-    
-
-}
-
-@media screen and (max-width: 425px){
-
-    .project-ad{
-        display: block;
-        flex-direction: column;
-        align-items: flex-end;
-        padding-top: 15rem;
-        margin-right: 0rem;
-        justify-content: center;
-        text-align: center;
-        font-family: 'Glowdex';
-        color: rgb(255, 196, 0);
-     /*    font-style: oblique;   */   
-        font-size: 70px;
-        
-    }
-
-    .ad{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        padding-top: 0rem;
-        margin-right: 1.5rem;
-        justify-content: center;
-        text-align: center;
-        font-family: 'Glowdex';
-        color: rgb(255, 196, 0);
-      /*   font-style: oblique; */
-        font-size: 100px;
-
-}
-    .picture{
-        display: flex;
-        position: relative;
-        justify-content: center;
-        padding-top: 50px;
-        margin-left: 7vh;
-        max-width: 80%;
-        max-height: none;
-        border: none;
-
-    }
-
-    P{
-        display: block;
-        text-align: center;
-        align-content: center;
-        color: rgb(255, 196, 0);
-        font-style: oblique;
-        font-size: 50px;
-    
-    }
-
-    .all{
-        text-decoration: none;
-    }
-
-    
-
-}
-
-
-@media screen and (max-width: 375px){
-
-     .project-ad{
-        display: block;
-        flex-direction: column;
-        align-items: flex-end;
-        padding-top: 15rem;
-        margin-right: 0rem;
-        justify-content: center;
-        text-align: center;
-        font-family: 'Glowdex';
-        color: rgb(255, 196, 0);
-      /*   font-style: oblique;   */   
-        font-size: 50px;
-        
-    } 
-
-     .ad{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        padding-top: 0rem;
-        margin-right: 1.5rem;
-        justify-content: center;
-        text-align: center;
-        font-family: 'Glowdex';
-        color: rgb(255, 196, 0);
-        font-style: oblique;
-        
-        
-    }
- 
-    
-    .picture{
-        display: flex;
-        position: relative;
-        justify-content: center;
-        padding-top: 100px;
-        margin-left: 2vh;
-        max-width: 75%;
-        max-height: none;
-        border: none;
-
-    }
-
-    .container-municipality p{
-
-        font-size: xx-large;
-    }
-
-    .all{
-        text-decoration: none;
-    }
-
-}
-
- }
