@@ -1,6 +1,6 @@
 @font-face {
     font-family: 'Glowdex';
-    src: url(font/Glowdex.ttf) format(truetype);
+    src: url(font/glowdex/Glowdex.ttf) format(truetype);
 }
 
 @font-face {
@@ -22,7 +22,7 @@ img{
     display: flex;
 }
 
-.all{
+a{
     text-decoration: none;
 }
 
@@ -30,6 +30,35 @@ body{
     font-family: 'Poppins', sans-serif;
     background-color: #18181B;
 }
+
+nav{
+    background: #1a1a1a;
+    width: 100%;
+    padding: 10px 10%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+}
+
+.nav-logo{
+    max-width: 100px;
+}
+
+.nav-links{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 3rem;
+}
+
+.link{
+    color: rgb(255, 196, 0);
+    font-display: none;
+    font-size: large;
+    pointer-events: none;
+}
+
 .container{
     color: rgb(255, 196, 0);
     text-align: center;
@@ -43,7 +72,7 @@ span{
     position: relative;
     word-spacing: 10%;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    font-size: large;
+    font-size: smaller;
     cursor: pointer;
     transition: all 0.3s ease;
     
@@ -65,80 +94,54 @@ span::first-letter{
 }
 
 
-.D{
-    font-size: 40px;
-}
-.R{
-    font-size: 40px;
-}
-.E{
-    font-size: 40px;
-    margin-left: -18vh;
-}
-.A{
-    font-size: 40px;
-}
-.M{
-    font-size: 40px;
-}
-.S{
-    font-size: 40px;
-    margin-left: -10vh;
-    justify-content: space-between;
+.easy{
+     left: -75.50px;
 }
 
-.container-municipality{
+.system{
+    left: -40px;
 
-    justify-content: center;
 }
 
-.davao{
-    text-align: center;
-    font-size: 60px;
-    color: rgb(255, 196, 0);
-}
-
-.projects{
+.project-ad{
     display: flex;
     flex-direction: column;
     align-items: center;
     padding-top: -0rem;
-    margin-right: -5rem;
+    margin-right: 1.5rem;
     justify-content: center;
     text-align: center;
     font-family: 'Glowdex';
     color: rgb(255, 196, 0);
    /*  font-style: oblique; */
-   font-size: 90px;
-
+    /* transition: 2s; */
     
 }
 
-.dreams{
+.ad{
     display: flex;
     flex-direction: column;
     align-items: center;
     padding-top: 0rem;
-    margin-right: -2.5rem;
+    margin-right: 1.5rem;
     justify-content: center;
     text-align: center;
+    font-size: xx-large;
     font-family: 'Glowdex';
     color: rgb(255, 196, 0);
     /* font-style: oblique; */
-    font-size: 120px;
-
+    font-size: 150px;
+    /* transition: 2s; */
     
 }
 
-.pictures{
+.picture{
     display: flex;
     position: absolute;
     justify-content: center;
-    padding-top: 20px;
-    margin-left: 50vh;
-    margin: none;
-    padding: none;
-    max-width: 50%;
+    padding-top: 200px;
+    margin-left: 200vh;
+    max-width: 100%;
     max-height: none;
     border: none; 
 }
@@ -147,104 +150,112 @@ span::first-letter{
     display: inline-block;
     position: relative;
     font-size: 30px;
-    margin-left: 68vh;  
-    padding-top: 20vh; 
+    margin-left: 58vh;  
+    padding-top: 30vh; 
     transition: color 0.3s, font-size 0.3;
-    text-decoration: none;
-    color: black;
 }
 
 .maptext:hover{
    color: rgb(255, 196, 0);
-   margin-left: 68vh; 
-   padding-top: 20vh;
-   font-size: 30px;
+   margin-left: 55vh; 
+   padding-top: 30vh;
+   font-size: 40px;
 }
 
 .monkayo{
     display: inline-block;
     position: relative;
     font-size: 30px;
-    margin-left: 105vh;  
+    margin-left: 110vh;  
+    padding-top: 5vh; 
     transition: color 0.3s, font-size 0.3;
-    text-decoration: none;
-    color: black;
 }
 
 .monkayo:hover{
    color: rgb(255, 196, 0);
-   margin-left: 105vh; 
-   font-size: 30px;
+   margin-left: 110vh; 
+   padding-top: 4vh;
+   font-size: 35px;
 }
 
 .montevista{
     display: inline-block;
     position: relative;
     font-size: 20px;
-    margin-left: 90vh;  
-    padding-top: 20vh; 
+    margin-left: 94vh;  
+    padding-top: 27vh; 
     transition: color 0.3s, font-size 0.3;
-    text-decoration: none;
-    color: black;
 }
 
 .montevista:hover{
    color: rgb(255, 196, 0);
-   margin-left: 90vh; 
-   font-size: 20px;
+   margin-left: 94vh; 
+   padding-top: 27vh;
+   font-size: 21px;
 }
 
-.Compostela{
+.compostela{
     display: inline-block;
     position: relative;
     font-size: 20px;
-    margin-left: 115vh;  
-    padding-top: -4vh; 
+    margin-left: 130vh;  
+    padding-top: 2vh; 
     transition: color 0.3s, font-size 0.3;
-    text-decoration: none;
-    color: black;
 }
 
-.Compostela:hover{
+.compostela:hover{
    color: rgb(255, 196, 0);
-   margin-left: 115vh; 
-   font-size: 20px;
+   margin-left: 130vh; 
+   padding-top: 2vh;
+   font-size: 21px;
 }
 
+.compostela{
+    display: inline-block;
+    position: relative;
+    font-size: 20px;
+    margin-left: 130vh;  
+    padding-top: 2vh; 
+    transition: color 0.3s, font-size 0.3;
+}
+
+.compostela:hover{
+   color: rgb(255, 196, 0);
+   margin-left: 130vh; 
+   padding-top: 2vh;
+   font-size: 21px;
+}
 
 .nabunturan{
     display: inline-block;
     position: relative;
-    font-size: 18px;
-    margin-left: 91vh;  
-    padding-top: 10vh; 
+    font-size: 20px;
+    margin-left: 93vh;  
+    padding-top: 17vh; 
     transition: color 0.3s, font-size 0.3;
-    text-decoration: none;
-    color: black;
 }
 
 .nabunturan:hover{
    color: rgb(255, 196, 0);
-   margin-left: 91vh; 
-   font-size: 18px;
+   margin-left: 93vh; 
+   padding-top: 17vh;
+   font-size: 21px;
 }
 
 .new-bataan{
     display: inline-block;
     position: relative;
     font-size: 20px;
-    margin-left: 120vh;  
+    margin-left: 137vh;  
     padding-top: 10vh; 
     transition: color 0.3s, font-size 0.3;
-    text-decoration: none;
-    color: black;
 }
 
 .new-bataan:hover{
    color: rgb(255, 196, 0);
-   margin-left: 120vh; 
+   margin-left: 137vh; 
    padding-top: 10vh;
-   font-size: 20px;
+   font-size: 21px;
 }
 
 .mawab{
@@ -252,16 +263,15 @@ span::first-letter{
     position: relative;
     font-size: 20px;
     margin-left: 86vh;  
-    padding-top: -4vh; 
+    padding-top: 5vh; 
     transition: color 0.3s, font-size 0.3;
-    text-decoration: none;
-    color: black;
 }
 
 .mawab:hover{
    color: rgb(255, 196, 0);
    margin-left: 86vh; 
-   font-size: 20px;
+   padding-top: 5vh;
+   font-size: 21px;
 }
 
 .maco{
@@ -269,35 +279,31 @@ span::first-letter{
     position: relative;
     font-size: 20px;
     margin-left: 86vh;  
-    padding-top: 10vh; 
+    padding-top: 17vh; 
     transition: color 0.3s, font-size 0.3;
-    text-decoration: none;
-    color: black;
 }
 
 .maco:hover{
    color: rgb(255, 196, 0);
    margin-left: 86vh; 
-   padding-top: 10vh;
-   font-size: 20px;
+   padding-top: 17vh;
+   font-size: 21px;
 }
 
 .maragusan{
     display: inline-block;
     position: relative;
     font-size: 20px;
-    margin-left: 120vh;  
-    padding-top: 9vh; 
+    margin-left: 135vh;  
+    padding-top: 13vh; 
     transition: color 0.3s, font-size 0.3;
-    text-decoration: none;
-    color: black;
 }
 
 .maragusan:hover{
    color: rgb(255, 196, 0);
-   margin-left: 120vh; 
-   padding-top: 9vh;
-   font-size: 20px;
+   margin-left: 135vh; 
+   padding-top: 13vh;
+   font-size: 21px;
 }
 
 .mabini{
@@ -305,516 +311,668 @@ span::first-letter{
     position: relative;
     font-size: 20px;
     margin-left: 88vh;  
-    padding-top: 2vh; 
+    padding-top: 5vh; 
     transition: color 0.3s, font-size 0.3;
-    text-decoration: none;
-    color: black;
 }
 
 .mabini:hover{
    color: rgb(255, 196, 0);
    margin-left: 88vh; 
-   font-size: 20px;
+   padding-top: 5vh;
+   font-size: 21px;
 }
 
 .pantukan{
     display: inline-block;
     position: relative;
     font-size: 20px;
-    margin-left: 105vh;  
-    padding-top: 10vh; 
+    margin-left: 110vh;  
+    padding-top: 17vh; 
     transition: color 0.3s, font-size 0.3;
-    text-decoration: none;
-    color: black;
 }
 
 .pantukan:hover{
    color: rgb(255, 196, 0);
-   margin-left: 105vh; 
-   font-size: 20px;
+   margin-left: 110vh; 
+   padding-top: 17vh;
+   font-size: 21px;
 }
 
 
-@media  screen and (max-width: 380px){
+ @media screen and (max-width: 2560px){ 
 
-    .projects{
+    .project-ad{
         display: flex;
         flex-direction: column;
         align-items: center;
         padding-top: -0rem;
+        margin-right: -7rem;
+        justify-content: center;
+        text-align: center;
+        font-family: 'Glowdex';
+        color: rgb(255, 196, 0); 
+        font-size: 50; 
+        
+    } 
+    
+    .ad{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-top: 0rem;
+        margin-right: 1.5rem;
+        justify-content: center;
+        text-align: center;
+        font-family: 'Glowdex';
+        color: rgb(255, 196, 0);
+        font-size: 200px;
+        
+    }
+
+
+    .maptext{
+        position: relative;
+        font-size: 30px;
+        margin-left: 50vh;  
+        padding-top: 35vh; 
+        transition: color 0.3s, font-size 0.3;
+    }
+    
+    .maptext:hover{
+       color: rgb(255, 196, 0);
+       margin-left: 50vh; 
+       padding-top: 35vh;
+       font-size: 35px;
+    }
+
+    .monkayo{
+        position: relative;
+        font-size: 30px;
+        margin-left: 103vh;  
+        padding-top: 2vh; 
+        transition: color 0.3s, font-size 0.3;
+    }
+    
+    .monkayo:hover{
+       color: rgb(255, 196, 0);
+       margin-left: 103vh; 
+       padding-top: 2vh;
+       font-size: 35px;
+    }
+    
+    .montevista{
+        position: relative;
+        font-size: 20px;
+        margin-left: 85vh;  
+        padding-top: 29vh; 
+        transition: color 0.3s, font-size 0.3;
+    }
+    
+    .montevista:hover{
+       color: rgb(255, 196, 0);
+       margin-left: 85vh; 
+       padding-top: 29vh;
+       font-size: 21px;
+    }
+    
+    .compostela{
+        position: relative;
+        font-size: 20px;
+        margin-left: 120vh;  
+        padding-top: 2vh; 
+        transition: color 0.3s, font-size 0.3;
+    }
+    
+    .compostela:hover{
+       color: rgb(255, 196, 0);
+       margin-left: 120vh; 
+       padding-top: 2vh;
+       font-size: 21px;
+    }
+    
+    .nabunturan{
+        position: relative;
+        font-size: 20px;
+        margin-left: 85vh;  
+        padding-top: 15vh; 
+        transition: color 0.3s, font-size 0.3;
+    }
+    
+    .nabunturan:hover{
+       color: rgb(255, 196, 0);
+       margin-left: 85vh; 
+       padding-top: 15vh;
+       font-size: 21px;
+    }
+    
+    .new-bataan{
+        position: relative;
+        font-size: 20px;
+        margin-left: 129vh;  
+        padding-top: 10vh; 
+        transition: color 0.3s, font-size 0.3;
+    }
+    
+    .new-bataan:hover{
+       color: rgb(255, 196, 0);
+       margin-left: 129vh; 
+       padding-top: 10vh;
+       font-size: 21px;
+    }
+    
+    .mawab{
+        display: inline-block;
+        position: relative;
+        font-size: 20px;
+        margin-left: 80vh;  
+        padding-top: 8vh; 
+        transition: color 0.3s, font-size 0.3;
+    }
+    
+    .mawab:hover{
+       color: rgb(255, 196, 0);
+       margin-left: 80vh; 
+       padding-top: 8vh;
+       font-size: 21px;
+    }
+    
+    .maco{
+        position: relative;
+        font-size: 20px;
+        margin-left: 80vh;  
+        padding-top: 17vh; 
+        transition: color 0.3s, font-size 0.3;
+    }
+    
+    .maco:hover{
+       color: rgb(255, 196, 0);
+       margin-left: 80vh; 
+       padding-top: 17vh;
+       font-size: 21px;
+    }
+    
+    .maragusan{
+        display: inline-block;
+        position: relative;
+        font-size: 20px;
+        margin-left: 127vh;  
+        padding-top: 12vh; 
+        transition: color 0.3s, font-size 0.3;
+    }
+    
+    .maragusan:hover{
+       color: rgb(255, 196, 0);
+       margin-left: 127vh; 
+       padding-top: 12vh;
+       font-size: 21px;
+    }
+    
+    .mabini{
+        display: inline-block;
+        position: relative;
+        font-size: 20px;
+        margin-left: 85vh;  
+        padding-top: 5vh; 
+        transition: color 0.3s, font-size 0.3;
+    }
+    
+    .mabini:hover{
+       color: rgb(255, 196, 0);
+       margin-left: 85vh; 
+       padding-top: 5vh;
+       font-size: 21px;
+    }
+    
+    .pantukan{
+        display: inline-block;
+        position: relative;
+        font-size: 20px;
+        margin-left: 105vh;  
+        padding-top: 20vh; 
+        transition: color 0.3s, font-size 0.3;
+    }
+    
+    .pantukan:hover{
+       color: rgb(255, 196, 0);
+       margin-left: 105vh; 
+       padding-top: 20vh;
+       font-size: 21px;
+    }
+    
+    
+
+    .picture{
+        display: flex;
+        position: absolute;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        padding-top: 100px;
+        margin-left: 25vh;
+        max-width: 70%;
+        max-height: -200vh;
+        border: none;
+        border-radius: 10%
+        
+    }
+
+    P{
+        display: block;
+        text-align: center;
+        color: rgb(255, 196, 0);
+        font-style: oblique;
+        font-size: 150px;
+    
+    }
+
+    span{
+        display: inline-block;
+        position: relative;
+        word-spacing: 10%;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        font-size: 50px;
+        cursor: pointer;
+        transition: all 0.3s ease;
+       
+        
+    }
+    
+    span:hover{
+        background-color: grey  ;
+        border-radius: 10px;
+    
+    }
+    
+    span::first-letter{
+        color: aqua;
+        font-size: 60px;
+        font-family: 'Glowdex';
+        text-decoration: none;
+        
+    }
+    
+    
+    .easy{
+         left: -85.50px;
+    }
+    
+    .system{
+        left: -50px;
+
+   
+      
+}
+
+@media screen and (max-width: 1440px){ 
+    
+     .project-ad{
+        display: block;
+        flex-direction: column;
+        align-items: flex-end;
+        padding-top: 0rem;
+        padding-bottom: 0vh;
         margin-right: -5rem;
         justify-content: center;
         text-align: center;
         font-family: 'Glowdex';
         color: rgb(255, 196, 0);
-       /*  font-style: oblique; */
-       font-size: 70px;
-    
+        /* font-style: oblique; */
+        font-size: 110px;
+        transition: 2s;
         
     }
-    
-    .dreams{
+
+    .ad{
         display: flex;
         flex-direction: column;
         align-items: center;
         padding-top: 0rem;
-        margin-right: -2.5rem;
+        margin-right: 1.5rem;
+        justify-content: center;
+        text-align: center;
+        font-size: xx-large;
+        font-family: 'Glowdex';
+        color: rgb(255, 196, 0);
+       /*  font-style: oblique; */
+        font-size: 150px;
+        transition: 2s;
+        
+    }
+
+    .easy{
+        left: -75.50px;
+   }
+   
+   .system{
+       left: -40px;
+   
+   }
+
+    
+    .picture{
+        display: flex;
+        position: absolute;
+        z-index: -1;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        padding-top: 50px;
+        margin-left: 30vh;
+        max-width: 70%;
+        max-height: none;
+        border: none;
+        
+    }
+
+    P{
+        display: block;
+        text-align: center;
+        color: rgb(255, 196, 0);
+        font-style: oblique;
+        font-size: 100px;
+    
+    }
+
+    span{
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        font-size: 45px;
+        
+    }
+
+    span::first-letter{
+        color: aqua;
+    }
+    
+}
+
+@media screen and (max-width: 1024.33px){
+
+     .project-ad{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-top: -0rem;
+        margin-right: 1.5rem;
         justify-content: center;
         text-align: center;
         font-family: 'Glowdex';
         color: rgb(255, 196, 0);
-        /* font-style: oblique; */
-        font-size: 90px;
+       /*  font-style: oblique; */
+        font-size: 150px;
+        
+    }
     
+    .ad{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-top: 0rem;
+        margin-right: 1.5rem;
+        justify-content: center;
+        text-align: center;
+        font-size: xx-large;
+        font-family: 'Glowdex';
+        color: rgb(255, 196, 0);
+       /*  font-style: oblique; */
+        font-size: 200px;
         
     }
 
-    .davao{
-        font-size: 50px;
+    .btn1{
+        padding: 1rem 2rem;
+        font-size: 1rem;
+        color: #fff;
+        background-color:  rgb(255, 196, 0);
+        border-radius: 5px;
+        cursor: pointer;
+        transition: all 0.3s ease;
     }
 
-    .pictures{
+    h3{
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        font-size: 45px;
+        row-gap: 10px;
+        font-style: oblique;
+        font: optional;
+        text-align: justify;
+        padding: 40px;
+        margin: 20px;
+        text-align: center;
+        text-decoration: underline;
+        cursor: pointer;
+        transition: all 0.3s ease;
+    } 
+
+    .picture{
         display: flex;
-        position: absolute;
+        position: relative;
         justify-content: center;
-        padding-top: 20px;
+        padding-top: 10px;
+        margin-left: 18vh;
+        max-width: 74%;
+        max-height: none;
+        border: none;
+
+
+        
+       
+    
+    }
+    
+
+}
+
+
+
+@media screen and (max-width: 768px){
+
+    .project-ad{
+        display: block;
+        flex-direction: column;
+        align-items: flex-end;
+        padding-top: 15rem;
+        margin-right: -1rem;
+        justify-content: center;
+        text-align: center;
+        font-size: xx-large;
+        font-family: 'Glowdex';
+        color: rgb(255, 196, 0);
+      /*   font-style: oblique; */
+        font-size: 130px;
+        
+    }
+
+     h3{
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        font-size: 40px;
+        row-gap: 10px;
+       /*  font-style: oblique; */
+        font: optional;
+        text-align: justify;
+        padding: 40px;
+        margin: 20px;
+        text-align: center;
+        text-decoration: underline;
+        cursor: pointer;
+        transition: all 0.3s ease;
+    } 
+
+    .picture{
+        display: flex;
+        position: relative;
+        justify-content: center;
+        padding-top: 50px;
+        margin-left: 23vh;
+        max-width:70%;
+        max-height: none;
+        border: none;
+
+    }
+
+    P{
+        display: block;
+        text-align: center;
+        align-content: center;
+        color: rgb(255, 196, 0);
+        font-style: oblique;
+        font-size: 75px;
+    
+    }
+
+
+    
+
+}
+
+@media screen and (max-width: 425px){
+
+    .project-ad{
+        display: block;
+        flex-direction: column;
+        align-items: flex-end;
+        padding-top: 15rem;
+        margin-right: 0rem;
+        justify-content: center;
+        text-align: center;
+        font-family: 'Glowdex';
+        color: rgb(255, 196, 0);
+     /*    font-style: oblique;   */   
+        font-size: 70px;
+        
+    }
+
+    .ad{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-top: 0rem;
+        margin-right: 1.5rem;
+        justify-content: center;
+        text-align: center;
+        font-family: 'Glowdex';
+        color: rgb(255, 196, 0);
+      /*   font-style: oblique; */
+        font-size: 100px;
+
+}
+    .picture{
+        display: flex;
+        position: relative;
+        justify-content: center;
+        padding-top: 50px;
+        margin-left: 7vh;
+        max-width: 80%;
+        max-height: none;
+        border: none;
+
+    }
+
+    P{
+        display: block;
+        text-align: center;
+        align-content: center;
+        color: rgb(255, 196, 0);
+        font-style: oblique;
+        font-size: 50px;
+    
+    }
+
+    
+
+}
+
+
+@media screen and (max-width: 375px){
+
+     .project-ad{
+        display: block;
+        flex-direction: column;
+        align-items: flex-end;
+        padding-top: 15rem;
+        margin-right: 0rem;
+        justify-content: center;
+        text-align: center;
+        font-family: 'Glowdex';
+        color: rgb(255, 196, 0);
+      /*   font-style: oblique;   */   
+        font-size: 50px;
+        
+    } 
+
+     .ad{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-top: 0rem;
+        margin-right: 1.5rem;
+        justify-content: center;
+        text-align: center;
+        font-family: 'Glowdex';
+        color: rgb(255, 196, 0);
+        font-style: oblique;
+        
+        
+    }
+ 
+    
+    .picture{
+        display: flex;
+        position: relative;
+        justify-content: center;
+        padding-top: 100px;
+        margin-left: 2vh;
+        max-width: 75%;
+        max-height: none;
+        border: none;
+
+    }
+
+    .container-municipality p{
+
+        font-size: xx-large;
+    }
+
+}
+
+@media screen and (max-width: 375px){
+
+    .project-ad{
+        display: block;
+        flex-direction: column;
+        align-items: flex-end;
+        padding-top: 15rem;
+        margin-right: 0rem;
+        justify-content: center;
+        text-align: center;
+        font-size: large;
+        font-family: 'Glowdex';
+        color: rgb(255, 196, 0);
+     /*    font-style: oblique;  */    
+        font-size: 50px;
+        
+    }
+
+
+    .picture{
+        display: flex;
+        position: relative;
+        justify-content: center;
+        padding-top: 60px;
         margin-left: 3.5vh;
-        margin: none;
-        padding: none;
-        max-width: 90%;
+        max-width: 73%;
         max-height: none;
-        border: none; 
+        border: none;
+
     }
 
-    .maptext{
-        display: inline-block;
-        position: relative;
-        font-size: 15px;
-        margin-left: 12vh;  
-        padding-top: 10vh; 
-        transition: color 0.3s, font-size 0.3;
-        text-decoration: none;
-        color: black;
-    }
-    
-    .maptext:hover{
-       color: rgb(255, 196, 0);
-       margin-left: 15vh; 
-       padding-top: 8vh;
-       font-size: 15px;
-    }
-    
-    .monkayo{
-        display: inline-block;
-        position: relative;
-        font-size: 13px;
-        margin-left: 30vh;  
-        transition: color 0.3s, font-size 0.3;
-        text-decoration: none;
-        color: black;
-    }
-    
-    .monkayo:hover{
-       color: rgb(255, 196, 0);
-       margin-left: 30vh; 
-       font-size: 13px;
-    }
-    
-    .montevista{
-        display: inline-block;
-        position: relative;
-        font-size: 10px;
-        margin-left: 24vh;  
-        padding-top: 10vh; 
-        transition: color 0.3s, font-size 0.3;
-        text-decoration: none;
-        color: black;
-    }
-    
-    .montevista:hover{
-       color: rgb(255, 196, 0);
-       margin-left: 24vh; 
-       font-size: 10px;
-    }
-    
-    .Compostela{
-        display: inline-block;
-        position: relative;
-        font-size: 10px;
-        margin-left: 36vh;  
-        padding-top: -6vh; 
-        transition: color 0.3s, font-size 0.3;
-        text-decoration: none;
-        color: black;
-    }
-    
-    .Compostela:hover{
-       color: rgb(255, 196, 0);
-       margin-left: 36vh; 
-       font-size: 10px;
-    }
-    
-    
-    .nabunturan{
-        display: inline-block;
-        position: relative;
-        font-size: 8px;
-        margin-left: 25vh;  
-        padding-top: 4vh; 
-        transition: color 0.3s, font-size 0.3;
-        text-decoration: none;
-        color: black;
-    }
-    
-    .nabunturan:hover{
-       color: rgb(255, 196, 0);
-       margin-left: 91vh; 
-       font-size: 18px;
-    }
-    
-    .new-bataan{
-        display: inline-block;
-        position: relative;
-        font-size: 13px;
-        margin-left: 38vh;  
-        padding-top: 4vh; 
-        transition: color 0.3s, font-size 0.3;
-        text-decoration: none;
-        color: black;
-    }
-    
-    .new-bataan:hover{
-       color: rgb(255, 196, 0);
-       margin-left: 38vh; 
-       font-size: 13px;
-    }
-    
-    .mawab{
-        display: inline-block;
-        position: relative;
-        font-size: 12px;
-        margin-left: 21vh;  
-        padding-top: -4vh; 
-        transition: color 0.3s, font-size 0.3;
-        text-decoration: none;
-        color: black;
-    }
-    
-    .mawab:hover{
-       color: rgb(255, 196, 0);
-       margin-left: 21vh; 
-       font-size: 12px;
-    }
-    
-    .maco{
-        display: inline-block;
-        position: relative;
-        font-size: 14px;
-        margin-left: 22vh;  
-        padding-top: 4vh; 
-        transition: color 0.3s, font-size 0.3;
-        text-decoration: none;
-        color: black;
-    }
-    
-    .maco:hover{
-       color: rgb(255, 196, 0);
-       margin-left: 22vh; 
-       font-size: 14px;
-    }
-    
-    .maragusan{
-        display: inline-block;
-        position: relative;
-        font-size: 12px;
-        margin-left: 36vh;  
-        padding-top: 2vh; 
-        transition: color 0.3s, font-size 0.3;
-        text-decoration: none;
-        color: black;
-    }
-    
-    .maragusan:hover{
-       color: rgb(255, 196, 0);
-       margin-left: 36vh; 
-       font-size: 12px;
-    }
-    
-    .mabini{
-        display: inline-block;
-        position: relative;
-        font-size: 13px;
-        margin-left: 22vh;  
-        padding-top: 1vh; 
-        transition: color 0.3s, font-size 0.3;
-        text-decoration: none;
-        color: black;
-    }
-    
-    .mabini:hover{
-       color: rgb(255, 196, 0);
-       margin-left: 22vh; 
-       font-size: 13px;
-    }
-    
-    .pantukan{
-        display: inline-block;
-        position: relative;
-        font-size: 13px;
-        margin-left: 29vh;  
-        padding-top: 4vh; 
-        transition: color 0.3s, font-size 0.3;
-        text-decoration: none;
-        color: black;
-    }
-    
-    .pantukan:hover{
-       color: rgb(255, 196, 0);
-       margin-left: 105vh; 
-       font-size: 20px;
-    }
-
-}
-
-@media  screen and (max-width: 428px){
-
-    .projects{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        padding-top: -0rem;
-        margin-right: -5rem;
-        justify-content: center;
+    P{
+        display: block;
         text-align: center;
-        font-family: 'Glowdex';
+        align-content: center;
         color: rgb(255, 196, 0);
-       /*  font-style: oblique; */
-       font-size: 70px;
+        font-style: oblique;
+        font-size: 40px;
     
-        
     }
-    
-    .dreams{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        padding-top: 0rem;
-        margin-right: -2.5rem;
-        justify-content: center;
-        text-align: center;
-        font-family: 'Glowdex';
-        color: rgb(255, 196, 0);
-        /* font-style: oblique; */
-        font-size: 90px;
-    
-        
-    }
-
-    .davao{
-        font-size: 50px;
-    }
-
-    .pictures{
-        display: flex;
-        position: absolute;
-        justify-content: center;
-        padding-top: 20px;
-        margin-left: 5vh;
-        margin: none;
-        padding: none;
-        max-width: 90%;
-        max-height: none;
-        border: none; 
-    }
-
-    .maptext{
-        display: inline-block;
-        position: relative;
-        font-size: 15px;
-        margin-left: 15vh;  
-        padding-top: 10vh; 
-        transition: color 0.3s, font-size 0.3;
-        text-decoration: none;
-        color: black;
-    }
-    
-    .maptext:hover{
-       color: rgb(255, 196, 0);
-       margin-left: 15vh; 
-       padding-top: 8vh;
-       font-size: 15px;
-    }
-    
-    .monkayo{
-        display: inline-block;
-        position: relative;
-        font-size: 13px;
-        margin-left: 35vh;  
-        transition: color 0.3s, font-size 0.3;
-        text-decoration: none;
-        color: black;
-    }
-    
-    .monkayo:hover{
-       color: rgb(255, 196, 0);
-       margin-left: 35vh; 
-       font-size: 13px;
-    }
-    
-    .montevista{
-        display: inline-block;
-        position: relative;
-        font-size: 10px;
-        margin-left: 28vh;  
-        padding-top: 13vh; 
-        transition: color 0.3s, font-size 0.3;
-        text-decoration: none;
-        color: black;
-    }
-    
-    .montevista:hover{
-       color: rgb(255, 196, 0);
-       margin-left: 28vh; 
-       font-size: 10px;
-    }
-    
-    .Compostela{
-        display: inline-block;
-        position: relative;
-        font-size: 10px;
-        margin-left: 42vh;  
-        padding-top: -6vh; 
-        transition: color 0.3s, font-size 0.3;
-        text-decoration: none;
-        color: black;
-    }
-    
-    .Compostela:hover{
-       color: rgb(255, 196, 0);
-       margin-left: 42vh; 
-       font-size: 10px;
-    }
-    
-    
-    .nabunturan{
-        display: inline-block;
-        position: relative;
-        font-size: 9px;
-        margin-left: 28vh;  
-        padding-top: 4vh; 
-        transition: color 0.3s, font-size 0.3;
-        text-decoration: none;
-        color: black;
-    }
-    
-    .nabunturan:hover{
-       color: rgb(255, 196, 0);
-       margin-left: 28vh; 
-       font-size: 9px;
-    }
-    
-    .new-bataan{
-        display: inline-block;
-        position: relative;
-        font-size: 13px;
-        margin-left: 43vh;  
-        padding-top: 4vh; 
-        transition: color 0.3s, font-size 0.3;
-        text-decoration: none;
-        color: black;
-    }
-    
-    .new-bataan:hover{
-       color: rgb(255, 196, 0);
-       margin-left: 43vh; 
-       font-size: 13px;
-    }
-    
-    .mawab{
-        display: inline-block;
-        position: relative;
-        font-size: 12px;
-        margin-left: 24vh;  
-        padding-top: -4vh; 
-        transition: color 0.3s, font-size 0.3;
-        text-decoration: none;
-        color: black;
-    }
-    
-    .mawab:hover{
-       color: rgb(255, 196, 0);
-       margin-left: 24vh; 
-       font-size: 12px;
-    }
-    
-    .maco{
-        display: inline-block;
-        position: relative;
-        font-size: 14px;
-        margin-left: 24vh;  
-        padding-top: 7vh; 
-        transition: color 0.3s, font-size 0.3;
-        text-decoration: none;
-        color: black;
-    }
-    
-    .maco:hover{
-       color: rgb(255, 196, 0);
-       margin-left: 24vh; 
-       font-size: 14px;
-    }
-    
-    .maragusan{
-        display: inline-block;
-        position: relative;
-        font-size: 12px;
-        margin-left: 44vh;  
-        padding-top: 2vh; 
-        transition: color 0.3s, font-size 0.3;
-        text-decoration: none;
-        color: black;
-    }
-    
-    .maragusan:hover{
-       color: rgb(255, 196, 0);
-       margin-left: 44vh; 
-       font-size: 12px;
-    }
-    
-    .mabini{
-        display: inline-block;
-        position: relative;
-        font-size: 13px;
-        margin-left: 26vh;  
-        padding-top: 2vh; 
-        transition: color 0.3s, font-size 0.3;
-        text-decoration: none;
-        color: black;
-    }
-    
-    .mabini:hover{
-       color: rgb(255, 196, 0);
-       margin-left: 26vh; 
-       font-size: 13px;
-    }
-    
-    .pantukan{
-        display: inline-block;
-        position: relative;
-        font-size: 13px;
-        margin-left: 33vh;  
-        padding-top: 7vh; 
-        transition: color 0.3s, font-size 0.3;
-        text-decoration: none;
-        color: black;
-    }
-    
-    .pantukan:hover{
-       color: rgb(255, 196, 0);
-       margin-left: 105vh; 
-       font-size: 20px;
-    }
-
+  }
 }
-
-    
